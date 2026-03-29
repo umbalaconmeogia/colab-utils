@@ -1,0 +1,5 @@
+FileName,URL
+TextFile.txt,https://raw.githubusercontent.com/umbalaconmeogia/colab-download-file-to-gdrive/main/test/FileToDownload/TextFile.txt
+ZipFile.zip,https://raw.githubusercontent.com/umbalaconmeogia/colab-download-file-to-gdrive/main/test/FileToDownload/ZipFile.zip
+DocFile.docx,https://raw.githubusercontent.com/umbalaconmeogia/colab-download-file-to-gdrive/main/test/FileToDownload/DocFile.docx
+ExcelFile.xlsx,https://raw.githubusercontent.com/umbalaconmeogia/colab-download-file-to-gdrive/main/test/FileToDownload/ExcelFile.xlsx
