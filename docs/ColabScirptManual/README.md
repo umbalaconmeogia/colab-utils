@@ -26,7 +26,7 @@ The steps are as follows:
 * Open https://colab.research.google.com/ on your web browser.
   Upload the file *DownloadFileToGoogleDrive.ipynb* or open it from Google Drive.
    ![New Notebook](images/00_NewNotebook.png)
-* Open the script in Colab.
+* The script is opened.
    ![Open the script in Colab](images/01_OpenTheScriptInColab.png)
 
 ### Specify folder to store the downloaded files
@@ -41,6 +41,7 @@ The steps are as follows:
 ### Run all
 
 * Click "Run all" button to run all the cells.
+* Depend on your session status, it may ask to authenticate to Google Drive. See [Authenticate to Google Drive](#authenticate-to-google-drive) at *Preferences*.
 * It will show the path of the folder
    ![Run all](images/03_RunAll.png)
 
@@ -55,3 +56,24 @@ The steps are as follows:
    ![File downloaded](images/05_FileDownloaded.png)
 * It will take several hours to download large files.
    ![Long download](images/06_LongDownload.png)
+
+## Preferences
+
+### Authenticate to Google Drive
+
+There are two kind of authentication to Google Drive.
+1. Connect to Google Drive.
+   * Permit notebook to access your Google Drive.
+      ![Permit Connect GDrive](images/10_01_PermitConnectGDrive.png)
+   * Login to Google Drive.
+      ![Login to Google Drive](images/10_02_LoginGoogle.png)
+   * Set access right.
+      ![Access right](images/10_03_SetAccessRight.png)
+2. Allow Colab to access Google Drive.
+   * Permit notebook to access your Google credentials.
+      ![Permit access Google credentials](images/11_01_PermitConnectGDrive.png)
+   * Login to Google Drive.
+      ![Login to Google Drive](images/11_02_LoginGoogle.png)
+      ![Password](images/11_03_Password.png)
+   * Set access right.
+      ![Access right](images/11_04_AccessRight.png)
