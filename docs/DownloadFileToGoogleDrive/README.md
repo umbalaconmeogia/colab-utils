@@ -16,7 +16,7 @@ Instead of downloading to a local computer then uploading to Google Drive, we wi
 
 ## 2. Usage summary
 
-1. Download [src/DownloadFileToGoogleDrive.ipynb](src/DownloadFileToGoogleDrive.ipynb) to your Colab or Google Drive.
+1. Download [src/DownloadFileToGoogleDrive.ipynb](../../src/DownloadFileToGoogleDrive.ipynb) to your Colab or Google Drive.
 2. Open the script in Colab.
 3. Run the script, upload the download file list (in csv file) then wait until all files are downloaded to your Google Drive.
 
