@@ -1,10 +1,26 @@
-# Running Colab script
+# Download file to Google Drive
 
-## Overview
+## 1. Overview
 
-This document describes how to run the Colab script [src/DownloadFileToGoogleDrive.ipynb](../../src/DownloadFileToGoogleDrive.ipynb) on your Google Colab.
+[DownloadFileToGoogleDrive.ipynb](../../src/DownloadFileToGoogleDrive.ipynb) is a script to download large files (more than 100GB for example) from the internet to Google Driver, running on Colab.
 
-The steps are as follows:
+It takes many hours to download the file from the internet to the local computer, then upload to Google Drive.
+
+Instead of downloading to a local computer then uploading to Google Drive, we will “copy” the file directly from the internet to Google Drive using Google Colab. By using Google's internet connection, this will make it faster than download to your own local computer.
+
+* Normal way of downloading to a local computer then uploading to Google Drive (slow)
+  ![Download normal](images/download_pc.png)
+* Speedy way: using Colab for direct download (faster)
+  ![Download colab](images/download_colab.png)
+
+
+## 2. Usage summary
+
+1. Download [src/DownloadFileToGoogleDrive.ipynb](src/DownloadFileToGoogleDrive.ipynb) to your Colab or Google Drive.
+2. Open the script in Colab.
+3. Run the script, upload the download file list (in csv file) then wait until all files are downloaded to your Google Drive.
+
+Step to run this scripts:
 
 1. Preparation
 2. Open the script in Colab.
@@ -13,15 +29,15 @@ The steps are as follows:
 5. Upload the download file list (CSV).
 6. Wait until all files are downloaded.
 
-## Steps
+## 3. Steps
 
-### Preparation
+### 3.1. Preparation
 
 * Create a CSV file with the following format, that contain the source URL and the FileName.
    You can see the sample [DownloadFileList.csv](../../../test/FileToDownload/DownloadFileList.csv)
 * Download the file [DownloadFileToGoogleDrive.ipynb](../../src/DownloadFileToGoogleDrive.ipynb).
 
-### Open the script in Colab
+### 3.2. Open the script in Colab
 
 * Open https://colab.research.google.com/ on your web browser.
   Upload the file *DownloadFileToGoogleDrive.ipynb* or open it from Google Drive.
@@ -29,7 +45,7 @@ The steps are as follows:
 * The script is opened.
    ![Open the script in Colab](images/01_OpenTheScriptInColab.png)
 
-### Specify folder to store the downloaded files
+### 3.3. Specify folder to store the downloaded files
 
 * In the first cell, specify the folder to store the downloaded files.
    * In STORAGE_TYPE, select "MyDrive" to save to your own Google Drive, or "Shared drivers" to save to a shared drive.
@@ -38,28 +54,28 @@ The steps are as follows:
       * Example of path: /Temp/TestColabDownload/DownloadByFolder
       * Example of folder ID: 1GSeaPJsi0GJtel1l1te7blVBqTEe-DLu
 
-### Run all
+### 3.4. Run all
 
 * Click "Run all" button to run all the cells.
 * Depend on your session status, it may ask to authenticate to Google Drive. See [Authenticate to Google Drive](#authenticate-to-google-drive) at *Preferences*.
 * It will show the path of the folder
    ![Run all](images/03_RunAll.png)
 
-### Upload the download file list (CSV)
+### 3.5. Upload the download file list (CSV)
 
 * In the second cell, click *Choose File* button and select the download file list (CSV).
    ![Upload the download file list (CSV)](images/04_SelectDownloadFileList.png)
 
-### Wait until all files are downloaded
+### 3.6. Wait until all files are downloaded
 
 * Wait until all files are downloaded.
    ![File downloaded](images/05_FileDownloaded.png)
 * It will take several hours to download large files.
    ![Long download](images/06_LongDownload.png)
 
-## Preferences
+## 4. Preferences
 
-### Authenticate to Google Drive
+### 4.1. Authenticate to Google Drive
 
 There are two kind of authentication to Google Drive.
 1. Connect to Google Drive.
