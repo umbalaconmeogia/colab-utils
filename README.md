@@ -23,3 +23,4 @@ It provides free access to computing resources, including GPUs and TPUs, and als
 
 * [Download large files from the internet to Google Drive](tools/DownloadFileToGoogleDrive/README.md)
 * [Unzip a large files on Google Drive](tools/UnzipFileOnGoogleDrive/README.md)
+* [Rename image files of 職場の教養](tools/SetFileNameShokubaNoKyoyo/README.md)
