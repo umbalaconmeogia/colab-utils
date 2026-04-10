@@ -15,11 +15,11 @@ Google Colab is a free service provided by Google that allows us to run Python c
 It provides free access to computing resources, including GPUs and TPUs, and also Google Drive for storage.
 
 * Normal way of downloading to a local computer then uploading to Google Drive (slow)
-  ![Download normal](docs/materials/download_pc.png)
+  ![Download normal](tools/materials/download_pc.png)
 * Speedy way: using Colab for direct download (faster)
-  ![Download colab](docs/materials/download_colab.png)
+  ![Download colab](tools/materials/download_colab.png)
 
 ## Tools provided
 
-* [Download large files from the internet to Google Drive](docs/DownloadFileToGoogleDrive/README.md)
-* [Unzip a large files on Google Drive](docs/UnzipFileOnGoogleDrive/README.md)
+* [Download large files from the internet to Google Drive](tools/DownloadFileToGoogleDrive/README.md)
+* [Unzip a large files on Google Drive](tools/UnzipFileOnGoogleDrive/README.md)

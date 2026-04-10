@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-[DownloadFileToGoogleDrive.ipynb](../../src/DownloadFileToGoogleDrive.ipynb) is a script to download large files (more than 100GB for example) from the internet to Google Driver, running on Colab.
+[DownloadFileToGoogleDrive.ipynb](DownloadFileToGoogleDrive.ipynb) is a script to download large files (more than 100GB for example) from the internet to Google Driver, running on Colab.
 
 It takes many hours to download the file from the internet to the local computer, then upload to Google Drive.
 
@@ -16,7 +16,7 @@ Instead of downloading to a local computer then uploading to Google Drive, we wi
 
 ## 2. Usage summary
 
-1. Download [src/DownloadFileToGoogleDrive.ipynb](../../src/DownloadFileToGoogleDrive.ipynb) to your Colab or Google Drive.
+1. Download [DownloadFileToGoogleDrive.ipynb](DownloadFileToGoogleDrive.ipynb) to your Colab or Google Drive.
 2. Open the script in Colab.
 3. Run the script, upload the download file list (in csv file) then wait until all files are downloaded to your Google Drive.
 
@@ -35,7 +35,7 @@ Step to run this scripts:
 
 * Create a CSV file with the following format, that contain the source URL and the FileName.
    You can see the sample [DownloadFileList.csv](../../../test/FileToDownload/DownloadFileList.csv)
-* Download the file [DownloadFileToGoogleDrive.ipynb](../../src/DownloadFileToGoogleDrive.ipynb).
+* Download the file [DownloadFileToGoogleDrive.ipynb](DownloadFileToGoogleDrive.ipynb).
 
 ### 3.2. Open the script in Colab
 
